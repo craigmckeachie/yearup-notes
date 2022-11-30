@@ -3,8 +3,27 @@
 ## Configuring Your Developer Machine
 
 - [How to use VS Code as your Git editor, difftool, and mergetool](https://www.roboleary.net/vscode/2020/09/15/vscode-git.html)
-- `Shift + CMD + Period` shows hidden files in MacOS Finder
-- `~/.gitconfig` is where your `--global` git settings are stored on MacOS
+
+### Hidden Files
+
+#### Windows
+
+- View hidden files and folders in Windows 10
+
+1.  Open File Explorer from the taskbar.
+1.  Select View > Options > Change folder and search options.
+1.  Select the View tab and, in Advanced settings, select Show hidden files, folders, and drives and OK.
+
+#### MacOS
+
+- Show hidden files in MacOS Finder
+- `Shift + CMD + Period`
+
+### Global Git Config
+
+- Where your `--global` git settings are stored.
+- Windows: `C:\Users\username\.gitconfig`
+- MacOS `~/.gitconfig`
 
 ## Initial Source Control Setup
 
@@ -74,7 +93,7 @@
 1. Test to make sure you have any changes others commited on main and then checkout your new feature branch.
    - `$ git checkout username/short_description_of_feature`
 1. From your new feature branch, merge in your local main branch.
-      > **Warning:** Running git merge with non-trivial uncommitted changes is discouraged: stage and commit your code before running the merge command below.
+   > **Warning:** Running git merge with non-trivial uncommitted changes is discouraged: stage and commit your code before running the merge command below.
    - `$ git merge main`
      > **Tip:** You can always abort a failed merge and start over using the command
      - `$ git merge --abort`
