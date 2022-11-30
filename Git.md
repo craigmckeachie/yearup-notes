@@ -6,7 +6,7 @@
 - `Shift + CMD + Period` shows hidden files in MacOS Finder
 - `~/.gitconfig` is where your `--global` git settings are stored on MacOS
 
-## Initial Git Project Setup
+## Initial Source Control Setup
 
 ### Creating a New Repository on Github
 
@@ -49,35 +49,24 @@
     ```
 
 1.  Open your repository's corresponding folder/directory in VS Code
-1.  Make changes to your code (add files, edit files, delete files etc..)
-1.  Open your repository's corresponding folder/directory in a terminal (Git Bash on Windows)
-1.  Stage your changes
-    ```
-    git add .
-    ```
-1.  Commit your changes
-    ```
-    git commit -m "your message about commit contents"
-    ```
-1.  Sync/Push your changes up to Github
-    ```
-    git push origin main
-    ```
-1.  Repeat the last 5 steps as you continue to work on your code
 
 ## Working on a Feature
 
-### Git Workflow Branch/Merging
+### Create a Branch for Your Feature
 
 1. After you've selected a feature to work on, create a branch in your local repo to build it in.
    - `$ git checkout -b username/short_description_of_feature`
 1. Push the feature branch to the remote repo.
    - `git push --set-upstream origin username/short_description_of_feature`
-1. Implement the requested feature, test the feature, and stage then commit all changes in the new branch.
+1. Implement the requested feature. Make changes to your code (add files, edit files, delete files etc..). Test the feature.
+1. Stage and then commit all changes in the new branch.
    - `git add .`
    - `git commit -m "feature completed"`
 1. Push the feature branch to the remote repo.
    - `git push origin username/short_description_of_feature`
+
+### Merge Other Changes into Your Feature
+
 1. Checkout the main branch locally.
    - `$ git checkout main`
 1. Pull down the main branch from GitHub to get the most up to date changes from others. If you practice git workflow as described here you should never have a merge conflict at this step.
@@ -92,18 +81,18 @@
 1. Push the feature branch to the remote repo.
    - `git push origin username/short_description_of_feature`
 1. Submit a pull request on GitHub asking to merge the branch into main.
+1. The last steps should be completed frequently and repeatedly until the feature is complete.
 
-## Integrating a Feature with all Other Code
+## Integrate the Feature into the Remote Source Control Database
 
 ### Merging a Pull Request
 
 > As a best practice, the team member who merges the code should never be the same person who wrote it. Let fresh eyes understand conflicts.
 
 1. A teammate reviews another teammates code for quality and functionality.
-1. The teammate merges the pull request back into the `main` branch so all team members can pull it down and integrate it with any features they are working on
-   - `git checkout main`
-     - this step is only necessary if they are not already in main
-   - `git merge username/short_description_of_feature`
+1. The teammate merges the pull request back into the `main` branch by clicking the green `Merge pull request` button.
+   Now all team members can pull it down and integrate it with any features they are completing.
+
    - Note: your teammate will often delete your branch from GitHub at this point but we **WILL NOT** so we can preserve the Git team collaboration steps.
 
 ## Resources
