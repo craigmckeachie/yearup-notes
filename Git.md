@@ -88,7 +88,7 @@
    - `$ git merge main`
 1. Resolve any merge conflicts, test the feature on the new branch, and then commit all changes from the merge.
    - `$ git add .`
-   - `$ git commit -m "Merge in main."`
+   - `$ git commit -m "Merge branch `main` into username/short_description_of_feature."`
 1. Push the feature branch to the remote repo.
    - `git push origin username/short_description_of_feature`
 1. Submit a pull request on GitHub asking to merge the branch into main.
