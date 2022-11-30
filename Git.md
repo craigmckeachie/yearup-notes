@@ -3,6 +3,8 @@
 ## Configuring Your Developer Machine
 
 - [How to use VS Code as your Git editor, difftool, and mergetool](https://www.roboleary.net/vscode/2020/09/15/vscode-git.html)
+- `Shift + CMD + Period` shows hidden files in MacOS Finder
+- `~/.gitconfig` is where your `--global` git settings are stored on MacOS
 
 ## Initial Git Project Setup
 
