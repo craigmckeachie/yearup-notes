@@ -74,7 +74,10 @@
 1. Test to make sure you have any changes others commited on main and then checkout your new feature branch.
    - `$ git checkout username/short_description_of_feature`
 1. From your new feature branch, merge in your local main branch.
+      > **Warning:** Running git merge with non-trivial uncommitted changes is discouraged: stage and commit your code before running the merge command below.
    - `$ git merge main`
+     > **Tip:** You can always abort a failed merge and start over using the command
+     - `$ git merge --abort`
 1. Resolve any merge conflicts, test the feature on the new branch, and then commit all changes from the merge.
    - `$ git add .`
    - `$ git commit -m "Merge branch `main` into username/short_description_of_feature."`
