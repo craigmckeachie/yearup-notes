@@ -3,9 +3,10 @@
 ## MySQL (Server and Workbench) Installation
 
 - [Video: Installing MySQL on Mac](https://youtu.be/7S_tz1z_5bA?t=292)
+
 - [Video: Installing MySQL on Windows](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=588s)
 
-## Install Sample Databases (only necessary on Mac)
+### Install Sample Databases (only necessary on Mac)
 
 - [Install Sample Databases Video Walkthrough](https://www.youtube.com/watch?v=8GVluNbb0Ss)
 - [Install Sample Databases Step by Step Directions](https://scribehow.com/shared/Install_Sample_Databases_on_MySQL__y6DvVxgpQ9iOARYm2-0Ahg)
