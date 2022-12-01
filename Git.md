@@ -69,7 +69,6 @@
 
 1.  Open your repository's corresponding folder/directory in VS Code
 
-## Working on a Feature
 
 ### Create a Branch for Your Feature
 
@@ -84,7 +83,7 @@
 1. Push the feature branch to the remote repo.
    - `git push origin username/short_description_of_feature`
 
-### Merge Other Changes into Your Feature
+## Merge Other Changes into Your Feature
 
 1. Checkout the main branch locally.
    - `$ git checkout main`
