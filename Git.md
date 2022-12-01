@@ -69,7 +69,6 @@
 
 1.  Open your repository's corresponding folder/directory in VS Code
 
-
 ### Create a Branch for Your Feature
 
 1. After you've selected a feature to work on, create a branch in your local repo to build it in.
@@ -115,6 +114,8 @@
    Now all team members can pull it down and integrate it with any features they are completing.
 
    - Note: your teammate will often delete your branch from GitHub at this point but we **WILL NOT** so we can preserve the Git team collaboration steps.
+
+![Feature Branch Workflow](./images/feature-branching-workflow.png)
 
 ## Git Pull vs. Git Fetch
 
