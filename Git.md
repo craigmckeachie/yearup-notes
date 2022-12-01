@@ -117,8 +117,14 @@
 
    - Note: your teammate will often delete your branch from GitHub at this point but we **WILL NOT** so we can preserve the Git team collaboration steps.
 
+## Git Pull vs. Git Fetch
+
+When downloading content from a remote repo, git pull and git fetch commands are available to accomplish the task. You can consider git fetch the 'safe' version of the two commands. It will download the remote content but not update your local repo's working state, leaving your current work intact. git pull is the more aggressive alternative; it will download the remote content for the active local branch and immediately execute git merge to create a merge commit for the new remote content. If you have pending changes in progress this will cause conflicts and kick-off the merge conflict resolution flow.
+
 ## Resources
 
 - [Pro Git Book from Apress](https://git-scm.com/book/en/v2)
 - [Using Git with Visual Studio Code: The Ultimate Guide (2022)](https://yourbrainoncomputers.com/using-git-with-visual-studio-code-the-ultimate-guide/)
 - [Git Branch Merging Best Practices](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
+- [Git Fetch](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
+- [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
