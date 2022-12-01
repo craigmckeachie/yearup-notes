@@ -87,6 +87,7 @@
 1. Checkout the main branch locally.
    - `$ git checkout main`
 1. Pull down the main branch from GitHub to get the most up to date changes from others. If you practice git workflow as described here you should never have a merge conflict at this step.
+   - `$ git checkout main`
    - `$ git pull origin main`
 1. Test to make sure you have any changes others commited on main and then checkout your new feature branch.
    - `$ git checkout username/short_description_of_feature`
