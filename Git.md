@@ -129,3 +129,45 @@ When downloading content from a remote repo, git pull and git fetch commands are
 - [Git Branch Merging Best Practices](https://gist.github.com/calaway/ea880263b0c0495bb00ee877f001dc59)
 - [Git Fetch](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
 - [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+
+
+## Tasks
+
+### Owner
+1. Create Repo on Github.com
+1. Protect the main branch
+
+### Developers
+1. Everyone clone the repo locally
+1. Create a feature branch and change into it
+
+
+## Developer
+1. Change stuff locally and commit into the feature branch
+1. Push the feature branch up to Github.com
+1. Create Pull Request on Github.com
+1. Have conversation in Pull Request Notes with code author
+1. Change stuff locally and commit into the feature branch
+1. Push the feature branch up to Github.com
+1. Create Pull Request on Github.com
+1. Merge the Pull Request into Main
+
+### Conflict Scenario
+
+- Change same line in same file
+- Change line in file that someone else deleted
+
+1. DeveloperA changes line in file and gets it into main
+1. DeveloperB doesn't pull latest changes into main yet
+1. DeveloperB changes same line in file in their feature branch
+1. DeveloperB does pull latest changes into main
+1. DeveloperB merges main (with DeveloperA changes) into their feature branch
+1. Conflct!
+1. Edit the file(s) in conflict
+1. Stage the file(s) in conflict
+1. Commit the merged changes
+1. Push the merged changes etc... 
+
+
+
+
