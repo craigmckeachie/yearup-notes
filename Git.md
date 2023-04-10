@@ -1,31 +1,7 @@
 # Git
 
-## Configuring Your Developer Machine
 
-- [How to use VS Code as your Git editor, difftool, and mergetool](https://www.roboleary.net/vscode/2020/09/15/vscode-git.html)
 
-### Hidden Files
-
-#### Windows
-
-- View hidden files and folders in Windows 10
-
-1.  Open File Explorer from the taskbar.
-1.  Select View > Options > Change folder and search options.
-1.  Select the View tab and, in Advanced settings, select Show hidden files, folders, and drives and OK.
-
-#### MacOS
-
-- Show hidden files in MacOS Finder
-- `Shift + CMD + Period`
-
-### Global Git Config
-
-- Where your `--global` git settings are stored.
-- Windows: `C:\Users\username\.gitconfig`
-- MacOS `~/.gitconfig`
-
-## Initial Source Control Setup
 
 ### Creating a New Repository on Github
 
@@ -130,19 +106,20 @@ When downloading content from a remote repo, git pull and git fetch commands are
 - [Git Fetch](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
 - [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
-
 ## Tasks
 
 ### Owner
+
 1. Create Repo on Github.com
 1. Protect the main branch
 
 ### Developers
+
 1. Everyone clone the repo locally
 1. Create a feature branch and change into it
 
-
 ## Developer
+
 1. Change stuff locally and commit into the feature branch
 1. Push the feature branch up to Github.com
 1. Create Pull Request on Github.com
@@ -166,8 +143,31 @@ When downloading content from a remote repo, git pull and git fetch commands are
 1. Edit the file(s) in conflict
 1. Stage the file(s) in conflict
 1. Commit the merged changes
-1. Push the merged changes etc... 
+1. Push the merged changes etc...
 
+## Initial Source Control Setup
 
+## Configuring Your Developer Machine
 
+- [How to use VS Code as your Git editor, difftool, and mergetool](https://www.roboleary.net/vscode/2020/09/15/vscode-git.html)
 
+### Hidden Files
+
+#### Windows
+
+- View hidden files and folders in Windows 10
+
+1.  Open File Explorer from the taskbar.
+1.  Select View > Options > Change folder and search options.
+1.  Select the View tab and, in Advanced settings, select Show hidden files, folders, and drives and OK.
+
+#### MacOS
+
+- Show hidden files in MacOS Finder
+- `Shift + CMD + Period`
+
+### Global Git Config
+
+- Where your `--global` git settings are stored.
+- Windows: `C:\Users\username\.gitconfig`
+- MacOS `~/.gitconfig`
